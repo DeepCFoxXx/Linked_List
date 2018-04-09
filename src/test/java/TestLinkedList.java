@@ -30,4 +30,10 @@ public class TestLinkedList {
         assertEquals("node 1", list.find("node 1").data);
     }
 
+    @Test
+    public void testUpdate() {
+        list.update("head node", "updated node");
+        assertEquals("updated node", list.head.data);
+    }
+
 }

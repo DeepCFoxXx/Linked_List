@@ -40,4 +40,14 @@ public class LinkedList {
         }
     }
 
+    public Boolean update(String toUpdate, String newData) {
+        Node node = find(toUpdate);
+        if (node != null) {
+            node.data = newData;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }

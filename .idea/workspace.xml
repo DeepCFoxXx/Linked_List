@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abc42e20-170d-4483-9857-e62e6f8390cf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/TestLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLinkedList.java" afterDir="false" />
     </list>
@@ -28,8 +31,8 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="304">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="e#85#86#0" expanded="true" />
                 <element signature="e#127#128#0" expanded="true" />
@@ -41,8 +44,8 @@
       <file leaf-file-name="TestLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#117#118#0" expanded="true" />
@@ -582,12 +585,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestLinkedList.testFind">
+  <component name="RunManager" selected="JUnit.All in Linked_List_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in Linked_List_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linked_List_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestLinkedList.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Linked_List_test" />
@@ -630,6 +650,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
       <option name="METHOD_NAME" value="testInsertNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestLinkedList.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linked_List_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -695,9 +732,13 @@
       <item itemvalue="JUnit.TestLinkedList.testHeadNode" />
       <item itemvalue="JUnit.TestLinkedList.testInsertNode" />
       <item itemvalue="JUnit.TestLinkedList.testFind" />
+      <item itemvalue="JUnit.TestLinkedList.testUpdate" />
+      <item itemvalue="JUnit.All in Linked_List_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Linked_List_test" />
+        <item itemvalue="JUnit.TestLinkedList.testUpdate" />
         <item itemvalue="JUnit.TestLinkedList.testFind" />
         <item itemvalue="JUnit.TestLinkedList.testInsertNode" />
         <item itemvalue="JUnit.TestLinkedList.testHeadNode" />
@@ -726,6 +767,12 @@
     </history-entry>
     <history-entry file="TestLinkedList_testFind - 2018.04.09 at 16h 26m 41s.xml">
       <configuration name="TestLinkedList.testFind" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLinkedList_testUpdate - 2018.04.09 at 16h 38m 14s.xml">
+      <configuration name="TestLinkedList.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Linked_List_test - 2018.04.09 at 16h 38m 43s.xml">
+      <configuration name="All in Linked_List_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -778,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="304">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
             <element signature="e#127#128#0" expanded="true" />
@@ -789,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#117#118#0" expanded="true" />
