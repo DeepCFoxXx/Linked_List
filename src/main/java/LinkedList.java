@@ -99,4 +99,20 @@ public class LinkedList {
         }
     }
 
+    public int length() {
+        if (this.head.next != null) {
+            return 1 + length(this.head.next);
+        } else {
+            return 1;
+        }
+    }
+
+    private int length(Node currentNode) {
+        if (currentNode.next != null) {
+            return 1 + length(currentNode.next);
+        } else {
+            return 1;
+        }
+    }
+
 }

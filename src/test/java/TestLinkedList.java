@@ -75,4 +75,13 @@ public class TestLinkedList {
         assertEquals("node 1", tail.data);
     }
 
+    @Test
+    public void testLength() {
+        assertEquals(1, list.length());
+        list.insert("node 1");
+        assertEquals(2, list.length());
+        list.insert("node 2");
+        assertEquals(3, list.length());
+    }
+
 }
