@@ -50,4 +50,20 @@ public class LinkedList {
         }
     }
 
+    public Node findParent(String data) {
+        if (this.head.data == data) {
+            return null;
+        } else {
+            return findParent(data, this.head);
+        }
+    }
+
+    private Node findParent(String data, Node currentNode) {
+        if (currentNode.next.data == data) {
+            return currentNode;
+        } else {
+            return findParent(data, currentNode.next);
+        }
+    }
+
 }

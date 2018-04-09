@@ -36,4 +36,11 @@ public class TestLinkedList {
         assertEquals("updated node", list.head.data);
     }
 
+    @Test
+    public void testFindParent() {
+        list.insert("node 1");
+        Node node = list.find("node 1");
+        assertEquals(list.head, list.findParent(node.data));
+    }
+
 }
