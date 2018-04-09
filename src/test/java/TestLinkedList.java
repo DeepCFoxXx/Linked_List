@@ -17,4 +17,10 @@ public class TestLinkedList {
         assertEquals("head node", list.head.data);
     }
 
+    @Test
+    public void testInsertNode() {
+        list.insert("node 1");
+        assertEquals("node 1", list.head.next.data);
+    }
+
 }
