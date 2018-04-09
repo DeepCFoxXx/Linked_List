@@ -23,4 +23,11 @@ public class TestLinkedList {
         assertEquals("node 1", list.head.next.data);
     }
 
+    @Test
+    public void testFind() {
+        assertEquals("head node", list.find("head node").data);
+        list.insert("node 1");
+        assertEquals("node 1", list.find("node 1").data);
+    }
+
 }

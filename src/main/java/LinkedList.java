@@ -22,4 +22,22 @@ public class LinkedList {
         }
     }
 
+    public Node find(String data) {
+        if (this.head.data == data) {
+            return this.head;
+        } else {
+            return find(data, this.head.next);
+        }
+    }
+
+    private Node find(String data, Node currentNode) {
+        if (currentNode.data == data) {
+            return currentNode;
+        } else if (currentNode.next != null){
+            return find(data, currentNode.next);
+        } else {
+            return null;
+        }
+    }
+
 }
