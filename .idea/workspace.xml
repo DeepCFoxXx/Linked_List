@@ -28,8 +28,8 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+            <state relative-caret-position="409">
+              <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
               <folding>
                 <element signature="e#85#86#0" expanded="true" />
                 <element signature="e#127#128#0" expanded="true" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="TestLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+            <state relative-caret-position="394">
+              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#117#118#0" expanded="true" />
@@ -508,8 +508,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Node.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestLinkedList.java" />
       </list>
     </option>
   </component>
@@ -623,13 +623,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestLinkedList.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.testFindParent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Linked_List_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
-      <option name="METHOD_NAME" value="testFind" />
+      <option name="METHOD_NAME" value="testFindParent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -640,13 +640,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestLinkedList.testFindParent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLinkedList.testPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Linked_List_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
-      <option name="METHOD_NAME" value="testFindParent" />
+      <option name="METHOD_NAME" value="testPop" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -726,19 +726,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestLinkedList.testFind" />
       <item itemvalue="JUnit.TestLinkedList.testUpdate" />
       <item itemvalue="JUnit.All in Linked_List_test" />
       <item itemvalue="JUnit.TestLinkedList.testFindParent" />
       <item itemvalue="JUnit.TestLinkedList.testDelete" />
+      <item itemvalue="JUnit.TestLinkedList.testPop" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Linked_List_test" />
+        <item itemvalue="JUnit.TestLinkedList.testPop" />
         <item itemvalue="JUnit.TestLinkedList.testDelete" />
         <item itemvalue="JUnit.TestLinkedList.testFindParent" />
         <item itemvalue="JUnit.TestLinkedList.testUpdate" />
-        <item itemvalue="JUnit.TestLinkedList.testFind" />
       </list>
     </recent_temporary>
   </component>
@@ -756,15 +756,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLinkedList_testHeadNode - 2018.04.09 at 16h 05m 57s.xml">
-      <configuration name="TestLinkedList.testHeadNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLinkedList_testInsertNode - 2018.04.09 at 16h 07m 50s.xml">
-      <configuration name="TestLinkedList.testInsertNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLinkedList_testFind - 2018.04.09 at 16h 26m 41s.xml">
-      <configuration name="TestLinkedList.testFind" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestLinkedList_testUpdate - 2018.04.09 at 16h 38m 14s.xml">
       <configuration name="TestLinkedList.testUpdate" configurationId="JUnit" />
     </history-entry>
@@ -783,10 +774,21 @@
     <history-entry file="All_in_Linked_List_test - 2018.04.09 at 16h 58m 49s.xml">
       <configuration name="All in Linked_List_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Linked_List_test - 2018.04.09 at 17h 04m 29s.xml">
+      <configuration name="All in Linked_List_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLinkedList_testPop - 2018.04.09 at 17h 05m 56s.xml">
+      <configuration name="TestLinkedList.testPop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Linked_List_test - 2018.04.09 at 17h 06m 01s.xml">
+      <configuration name="All in Linked_List_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Linked_List_test - 2018.04.09 at 17h 06m 36s.xml">
+      <configuration name="All in Linked_List_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -796,12 +798,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.32965517" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -834,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        <state relative-caret-position="409">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
             <element signature="e#127#128#0" expanded="true" />
@@ -845,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="394">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#117#118#0" expanded="true" />

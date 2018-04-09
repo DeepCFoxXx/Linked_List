@@ -54,4 +54,25 @@ public class TestLinkedList {
         assertEquals(list.find("node 2"), null);
     }
 
+    @Test
+    public void testPop() {
+        list.insert("node 1");
+        Node node = list.find("node 1");
+        assertEquals(node, list.pop());
+        list.insert("node 1");
+        list.insert("node 2");
+        list.insert("node 3");
+        Node nodeThree = list.find("node 3");
+        Node nodeTwo = list.find("node 2");
+        assertEquals(nodeThree, list.pop());
+        assertEquals(nodeTwo, list.pop());
+    }
+
+    @Test
+    public void testTail() {
+        list.insert("node 1");
+        Node tail = list.tail();
+        assertEquals("node 1", tail.data);
+    }
+
 }

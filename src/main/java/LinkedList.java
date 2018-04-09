@@ -77,4 +77,26 @@ public class LinkedList {
         }
     }
 
+    public Node pop() {
+        Node tail = tail();
+        findParent(tail.data).next = null;
+        return tail;
+    }
+
+    public Node tail() {
+        if (this.head.next == null) {
+            return this.head;
+        } else {
+            return tail(this.head.next);
+        }
+    }
+
+    private Node tail(Node currentNode) {
+        if (currentNode.next == null) {
+            return currentNode;
+        } else {
+            return tail(currentNode.next);
+        }
+    }
+
 }
