@@ -1,0 +1,4 @@
+rootProject.name = 'Linked_List'
+include 'untitled'
+findProject(':untitled')?.name = 'Linked_List'
+
