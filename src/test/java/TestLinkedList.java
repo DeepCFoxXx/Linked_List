@@ -43,4 +43,15 @@ public class TestLinkedList {
         assertEquals(list.head, list.findParent(node.data));
     }
 
+    @Test
+    public void testDelete() {
+        list.insert("node 1");
+        list.delete("node 1");
+        assertEquals(list.head.next, null);
+        list.insert("node 1");
+        list.insert("node 2");
+        list.delete("node 2");
+        assertEquals(list.find("node 2"), null);
+    }
+
 }

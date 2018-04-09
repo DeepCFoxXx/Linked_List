@@ -66,4 +66,15 @@ public class LinkedList {
         }
     }
 
+
+    public Boolean delete(String data) {
+        Node node = find(data);
+        if (node != null) {
+            findParent(node.data).next = node.next;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
